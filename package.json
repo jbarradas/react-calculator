@@ -1,0 +1,27 @@
+{
+  "name": "cv-online",
+  "version": "1.0.0",
+  "description": "react presentation: calculator",
+  "main": "./src/components/Calculator.jsx",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Barradas",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.5",
+    "webpack": "^2.5.1"
+  }
+}
