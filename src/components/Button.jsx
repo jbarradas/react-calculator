@@ -8,9 +8,16 @@ export class Button extends React.Component {
 
 	render() {
 		var classes = 'btn';
+
 		if (this.state.value != undefined) {
-			classes += '' + this.state.value;
+			
+			classes += ' ' + this.state.value;
+			
+			if (this.state.size != undefined) {
+				classes += ' ' + this.state.size; 
+			}
 		}
+
 		return (
 			<div className={classes}>{this.state.value}</div>
 		);
